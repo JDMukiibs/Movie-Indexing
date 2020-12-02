@@ -37,18 +37,6 @@ You will start by taking the file name as a command line argument and then you w
 * most_popular_year_movies: This function will mainly take an AVL tree and display the details of the movies within the year which has maximum number of movies. In the comment part of this function, discuss the complexity of this function based on your current representation of data. You also need to discuss if there is a way you could improve this. Please make sure that in your comments you clearly highlight your discussion on this issue.
 * display_movies_keyword: This function will mainly take an AVL tree and will find and display the movies that contains the specified keyword in their title. In the comment part of this function, discuss the complexity of this function based on your current representation of data. You also need to discuss if there is a way you could improve this.
 
-Please note that in this assignment, you can make use of the functions in the **string.h** library and similar external libraries. **You cannot assume about the number of movies in this external file.**
-
-## **Submission Requirements:**
-In this assignment, you need to have a header file (avltree.h) which includes the major functionality of the AVL Tree ADT. If you will use other ADTs, you need to create a separate header file for each of them. You also need to have a C source file (indexingmovies.c) that includes the main function and other functions. You need put all these files into the "cng213a3" folder and then submit the compressed version of the folder to ODTU-CLASS. If you do not follow this structure, you will lose %10 from the overall grade.
-
-## **Programming Style Tips!**
-Please follow the modular programming approach. In C programming, we use functions referred to modules to perform specific tasks that are determined/guided by the solution. Remember the following tips!
-* Modules can be written and tested separately!
-* Modules can be reused!
-* Large projects can be developed in parallel by using modules!
-* Modules can reduce the length of the program!
-* Modules can also make your code more readable!
 
 **Sample run:**
 ```
@@ -142,19 +130,3 @@ The Matrix Reloaded2003 tt0234215 https://m.mediaamazon.com/images/M/MV5BODE0MzZ
 The Matrix Revolutions2003 tt0242653 https://m.mediaamazon.com/images/M/MV5BNzNlZTZjMDctZjYwNi00NzljLWIwN2QtZWZmYmJiYzQ0MTk2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg
 ```
 
-**Important Rule:
-If your code does not compile due to syntax errors, you will automatically get zero.**
-
-**Grading:**
-
-Grading Point Mark | (out of 100)
--------------------|-----------------
-AVL Tree Data Structure | 5
-Processing data file (read_data) | 15
-Inserting/Updating a node in the tree (insert_movie) | 25
-Displaying the index (display_index) | 10
-Displaying the movies in a year with maximum number of movies (most_popular_year_movies) (complexity discussion – 2pts) | 15
-Displaying the movies that contains the specified keyword (display_movies_keyword) (complexity discussion – 2pts) | 15
-The main function | 15
-
-**NOTE:** Remember to have good programming style (Appropriate comments, variable names, formulation of selection statements and loops, reusability, extensibility etc.). Each of the items above will include10% for good programming style. Good programming style also includes modularity approach explained above.
